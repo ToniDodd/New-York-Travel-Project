@@ -1,6 +1,15 @@
-h1{
+p{
+    font-family: 'Spectral', serif;
+    font-size: 45px;
+    margin: 0 auto;
+}
+h1 {
     font-family: 'Spectral', serif;
     font-weight: 800;
-    text-align: center;
+    margin: 0 auto;
     font-size: 100px;
+}
+.hero{
+    display: block;
+    text-align: center;
 }
