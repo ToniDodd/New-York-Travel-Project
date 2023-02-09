@@ -1,15 +1,88 @@
-p{
+ body{
     font-family: 'Spectral', serif;
-    font-size: 45px;
-    margin: 0 auto;
-}
-h1 {
-    font-family: 'Spectral', serif;
-    font-weight: 800;
-    margin: 0 auto;
-    font-size: 100px;
-}
-.hero{
+    background: #275566;
+ }
+ 
+ 
+ 
+ header{
     display: block;
     text-align: center;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("../images/nyc2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 200px;
+}
+header p {
+    font-size: 45px;
+    font-weight: 400; 
+    margin: 0 auto;
+    line-height: 1;
+    letter-spacing: 3px;;
+  
+}
+header h1 {
+    font-weight: 800;
+    margin: 30px auto;
+    font-size: 100px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+header h2 {
+    font-size: 25px;
+    font-weight: 300; 
+    margin: 30px auto;
+    line-height: 1;
+    letter-spacing: 2px;
+  
+}
+button {
+    padding: 15px 20px;
+    margin: 80px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    letter-spacing: 3px;;
+}
+.facts a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    color:  white;
+    text-align: center;
+}
+footer a{
+    text-align: center;
+    color: rgb(203, 164, 239);
+    text-decoration: none;
+
+}
+
+
+.hero{ max-width: 1200px;
+    margin: 0 auto;
+}
+@media(max-width: 900px){
+    header{
+        padding: 50px 0;
+    }
+    p{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 50px;
+        line-height: 1;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    button{
+        margin: 5px;
+    }
+    footer{
+        font-size: 14px;
+        
+    }
 }
