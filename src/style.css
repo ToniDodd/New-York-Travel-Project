@@ -95,6 +95,10 @@ footer li{
 }
 main h2{
     color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+main h3{
+    padding: 20px;;
 }
 .main-section-two{
     background: #eaebed;
@@ -118,6 +122,9 @@ main h2{
     padding: 25px; 
     
 }
+.grid{
+    grid-template-columns: 1fr 1fr;
+}
 
 .card-button{
     background: #113355;
@@ -128,6 +135,23 @@ main h2{
     letter-spacing: 3;
     text-transform: uppercase;
     padding: 16px;
+    font-size: 12px;
+}
+.section-three{
+    text-align: center;
+}
+.section-three-grid-one{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.section-three-img{
+    max-width: 300px;
+}
+.section-three-grid-two{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
 .info{
     color: white;
@@ -203,6 +227,10 @@ main h2{
     .card-link{
         letter-spacing: 1;
         padding: 12px;
+    }
+    .section-three{
+        display: none;
+        
     }
  
 }
