@@ -232,5 +232,8 @@ main h3{
         display: none;
         
     }
+    .card-button{
+        font-size: 11px;
+    }
  
 }
